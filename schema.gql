@@ -8,6 +8,9 @@ type Recipe {
   description: String
   creationDate: Date!
   ingredients: [String!]!
+
+  """propertyWithoutFieldDecorator is not decorated"""
+  propertyWithoutFieldDecorator: String!
 }
 
 """Date custom scalar type"""

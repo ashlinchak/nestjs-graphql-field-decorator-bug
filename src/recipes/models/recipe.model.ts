@@ -16,4 +16,9 @@ export class Recipe {
 
   @Field(type => [String])
   ingredients: string[];
+
+  /**
+   * propertyWithoutFieldDecorator is not decorated
+   */
+  propertyWithoutFieldDecorator: string;
 }
